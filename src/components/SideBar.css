@@ -1,0 +1,28 @@
+.scrollable {
+  overflow-y: scroll; /* Make the app scrollable */
+  scrollbar-width: thin; /* For Firefox: makes the scrollbar thinner */
+  scrollbar-color: #0f0f0f #0f0f0f; /* Thumb and track colors */
+}
+
+.scrollable:hover {
+  scrollbar-color: #888888 #0f0f0f; /* Thumb and track colors */
+}
+
+/* WebKit browsers (Chrome, Safari, Edge) */
+.scrollable::-webkit-scrollbar {
+  width: 7px; /* Set the width of the scrollbar */
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: #888888;
+  border-radius: 50px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: #0f0f0f;
+  border-radius: 10px;
+}

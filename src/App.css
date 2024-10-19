@@ -1,0 +1,27 @@
+
+
+.app {
+    height: 100vh; /* Full height to allow scrolling */
+    overflow-y: scroll; /* Make the app scrollable */
+    scrollbar-width: auto; /* Default scrollbar width for Firefox */
+    scrollbar-color: #888888 #0F0F0F; /* Thumb and track colors */
+}
+
+/* Webkit browsers */
+.app::-webkit-scrollbar {
+    
+}
+
+.app::-webkit-scrollbar-thumb {
+    background-color: #888888;
+    border-radius: 50px;
+}
+
+.app::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.app::-webkit-scrollbar-track {
+    background: #0F0F0F;
+    border-radius: 10px;
+}
